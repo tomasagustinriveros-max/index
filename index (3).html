@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impresoras 3D - Tecnología del Futuro</title>
+    <!-- CSS integrado dentro del HTML -->
+    <style>
+        /* Estilos generales */
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        body {
+          font-family: Arial, sans-serif;
+          line-height: 1.6;
+          color: #333;
+          background-color: #f0f8ff;
+        }
+
+        /* Header con celeste pastel */
+        header {
+          background-color: #87ceeb;
+          color: #2c3e50;
+          text-align: center;
+          padding: 30px 20px;
+          margin-bottom: 30px;
+        }
+
+        header h1 {
+          font-size: 2.5em;
+          margin-bottom: 10px;
+        }
+
+        .autor {
+          font-size: 1.1em;
+          font-style: italic;
+        }
+
+        /* Secciones */
+        section {
+          max-width: 900px;
+          margin: 30px auto;
+          padding: 25px;
+          background-color: white;
+          border-radius: 5px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Títulos con celeste más oscuro */
+        section h2 {
+          color: #4a90a4;
+          margin-bottom: 20px;
+          border-bottom: 2px solid #b0d4e3;
+          padding-bottom: 10px;
+        }
+
+        section p {
+          margin-bottom: 15px;
+          text-align: justify;
+        }
+
+        /* Imágenes */
+        img {
+          max-width: 100%;
+          height: auto;
+          display: block;
+          margin: 20px auto;
+          border-radius: 5px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Lista con celeste pastel */
+        .ventajas ul {
+          list-style: none;
+          padding-left: 0;
+        }
+
+        .ventajas ul li {
+          padding: 12px 15px;
+          margin: 8px 0;
+          background-color: #e3f2fd;
+          border-left: 4px solid #64b5f6;
+          border-radius: 3px;
+        }
+
+        .ventajas ul li:hover {
+          background-color: #bbdefb;
+          transform: translateX(5px);
+          transition: all 0.3s ease;
+        }
+
+        /* Tabla con celeste */
+        table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-top: 20px;
+        }
+
+        table th {
+          background-color: #4a90a4;
+          color: white;
+          padding: 12px;
+          text-align: left;
+        }
+
+        table td {
+          padding: 10px;
+          border-bottom: 1px solid #ddd;
+        }
+
+        table tr:hover {
+          background-color: #e3f2fd;
+        }
+
+        table tr:nth-child(even) {
+          background-color: #f5f5f5;
+        }
+
+        /* Botón con celeste */
+        .enlaces-botones {
+          display: flex;
+          gap: 20px;
+          justify-content: center;
+          flex-wrap: wrap;
+          margin-top: 20px;
+        }
+
+        .boton {
+          display: inline-block;
+          padding: 15px 30px;
+          background-color: #5dade2;
+          color: white;
+          text-decoration: none;
+          border-radius: 5px;
+          font-weight: bold;
+        }
+
+        .boton:hover {
+          background-color: #3498db;
+          transition: all 0.3s ease;
+        }
+
+        /* Footer con celeste oscuro */
+        footer {
+          background-color: #4a90a4;
+          color: white;
+          text-align: center;
+          padding: 25px;
+          margin-top: 40px;
+        }
+
+        footer p {
+          margin: 5px 0;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+          header h1 {
+            font-size: 2em;
+          }
+
+          section {
+            margin: 20px 10px;
+            padding: 15px;
+          }
+
+          .enlaces-botones {
+            flex-direction: column;
+          }
+        }
+    </style>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Impresoras 3D</h1>
+        <p class="autor">Tomás Riveros</p>
+    </header>
+
+    <!-- Sección 1: Introducción -->
+    <section class="introduccion">
+        <h2>¿Qué son las Impresoras 3D?</h2>
+        <p>
+            Las impresoras 3D son dispositivos capaces de crear objetos tridimensionales 
+            a partir de un modelo digital. Utilizan la técnica de fabricación aditiva, 
+            donde el material se deposita capa por capa hasta formar el objeto completo.
+        </p>
+        <p>
+            Esta tecnología ha revolucionado la forma en que diseñamos y fabricamos productos, 
+            permitiendo crear desde prototipos hasta piezas funcionales con gran precisión.
+        </p>
+    </section>
+
+    <!-- Sección 2: Ventajas -->
+    <section class="ventajas">
+        <h2>Ventajas de las Impresoras 3D</h2>
+        <ul>
+            <li>Permite crear prototipos rápidamente</li>
+            <li>Reduce costos de producción</li>
+            <li>Posibilita diseños personalizados</li>
+            <li>Genera menos desperdicio de material</li>
+            <li>Facilita la innovación y creatividad</li>
+            <li>Acelera el proceso de fabricación</li>
+        </ul>
+    </section>
+
+    <!-- Sección 3: Tipos de Tecnologías -->
+    <section class="tecnologias">
+        <h2>Tipos de Tecnologías de Impresión 3D</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Tecnología</th>
+                    <th>Material</th>
+                    <th>Velocidad</th>
+                    <th>Costo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>FDM</td>
+                    <td>Plástico (PLA, ABS)</td>
+                    <td>Media</td>
+                    <td>Bajo</td>
+                </tr>
+                <tr>
+                    <td>SLA</td>
+                    <td>Resina fotosensible</td>
+                    <td>Media-Alta</td>
+                    <td>Medio</td>
+                </tr>
+                <tr>
+                    <td>SLS</td>
+                    <td>Polvo (Nylon)</td>
+                    <td>Alta</td>
+                    <td>Alto</td>
+                </tr>
+                <tr>
+                    <td>DLP</td>
+                    <td>Resina</td>
+                    <td>Rápida</td>
+                    <td>Medio-Alto</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Sección 4: Aplicaciones -->
+    <section class="aplicaciones">
+        <h2>Aplicaciones de las Impresoras 3D</h2>
+        <img src="https://http2.mlstatic.com/D_NQ_NP_666375-MLA88308687862_072025-O.webp" alt="Impresora 3D Creality en funcionamiento">
+        <p>
+            Las impresoras 3D tienen aplicaciones en múltiples industrias: medicina 
+            (prótesis y órganos), arquitectura (maquetas), educación (material didáctico), 
+            automoción (piezas de repuesto), moda (accesorios), y muchas más.
+        </p>
+    </section>
+
+    <!-- Enlaces de interés - solo UNR -->
+    <section class="enlaces">
+        <h2>Enlaces de Interés</h2>
+        <div class="enlaces-botones">
+            <a href="https://unr.edu.ar/impresion-3d/" target="_blank" class="boton">UNR - Impresión 3D</a>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Trabajo realizado por: Tomás Riveros</p>
+        <p>Curso: 4° D | Fecha: 11-12-2025</p>
+    </footer>
+</body>
+</html>
